@@ -1,0 +1,2 @@
+#!/bin/bash
+cat $1 | xargs -0 python toSecret.py
